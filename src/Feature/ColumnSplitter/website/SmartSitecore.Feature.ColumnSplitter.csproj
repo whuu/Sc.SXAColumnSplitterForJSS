@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.web">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn),1591,SA1633,SA1404</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Sitecore.LayoutService" Version="9.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pipelines\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="App_Config\Include\Feature\Feature.ColumnSplitter.config" />
+    <None Remove="App_Config\Include\Feature\Feature.ColumnSplitter.Serialization.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="App_Config\Include\Feature\Feature.ColumnSplitter.config">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="App_Config\Include\Feature\Feature.ColumnSplitter.Serialization.config">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Web.config">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

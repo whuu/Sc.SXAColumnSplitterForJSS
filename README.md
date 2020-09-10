@@ -39,7 +39,7 @@ const ColumnSplitter = ({ rendering, params }) => {
     <div className="row">
       {columns?.map((value) => {
         return (
-          <div className={`col ${params[`ColumnWidth${value}`]}`}>
+          <div key={value} className={`col ${params[`ColumnWidth${value}`]}`}>
             <Placeholder name={`column-${value}`} rendering={rendering} />
           </div>
         );

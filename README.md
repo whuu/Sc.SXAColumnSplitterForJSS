@@ -16,12 +16,12 @@
 * If you don't want to synchronize items, follow the instruction to create new ones:
   * Create Rendering Parameters Template item inheriting from `/sitecore/templates/Feature/Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter`.
     
-    <img src='/documentation/inherit-rendering-parameters.png' style="max-width:500px" />
+    <img src='/documentation/inherit-rendering-parameters.png' style='max-width:500px;' />
     
   * Optionally add `_Standard Values` item for the template, with default column splitter values (e.g. two column split on desktop and one column on mobile). You can edit columns field using Raw values.
   * Create new `Placeholder Settings` item for placeholder `column`, assign your renderings to `Allowed Controls` field.
   
-  <img src='/documentation/placeholder-settings.png' style="max-width:500px" />
+  <img src='/documentation/placeholder-settings.png' style='max-width:500px;' />
 
   * Create `Json Rendering` item poiting to your JSS implementation:
   ![Rendering Definition](documentation/rendering-definition.png)

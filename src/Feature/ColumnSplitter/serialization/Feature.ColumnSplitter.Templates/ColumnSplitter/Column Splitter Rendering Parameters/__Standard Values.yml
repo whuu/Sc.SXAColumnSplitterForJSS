@@ -1,0 +1,21 @@
+﻿---
+ID: "2909a2b9-bf50-414a-ab29-6406a53ae970"
+Parent: "380a8ac9-94c3-4576-9d4d-87a538b2ee29"
+Template: "380a8ac9-94c3-4576-9d4d-87a538b2ee29"
+Path: /sitecore/templates/Feature/ColumnSplitter/Column Splitter Rendering Parameters/__Standard Values
+DB: master
+SharedFields:
+- ID: "16667f70-4990-4c66-b6f5-7f83b5e3a7a6"
+  Hint: ColumnWidth2
+  Value: "{908E2BC6-C110-4ED7-AF39-7EEACBB31A34}|{FACA8842-7EAD-438B-A68B-FEC32F56F9B9}"
+- ID: "c8c9d3b3-962a-45c1-90ae-f36bb0aa54f2"
+  Hint: ColumnWidth1
+  Value: "{908E2BC6-C110-4ED7-AF39-7EEACBB31A34}|{FACA8842-7EAD-438B-A68B-FEC32F56F9B9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200907T183632Z

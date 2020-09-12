@@ -1,0 +1,25 @@
+﻿---
+ID: "380a8ac9-94c3-4576-9d4d-87a538b2ee29"
+Parent: "8a3c1c9e-1e09-40eb-829f-51b38a028a39"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/ColumnSplitter/Column Splitter Rendering Parameters
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/flatscreen_tv.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{3E1016E5-6ECB-4C19-AA01-17C18B42DEB0}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{2909A2B9-BF50-414A-AB29-6406A53AE970}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200907T181237Z

@@ -1,0 +1,34 @@
+﻿---
+ID: "35e79b70-60db-4aa9-9903-a8a088cd0dbe"
+Parent: "0f1c81d0-8cb1-4119-ae09-1fd7c222ae2d"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Feature/ColumnSplitter/Column Splitter
+DB: master
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: ColumnSplitter
+- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
+  Hint: Placeholders
+  Type: Treelist
+  Value: "{A574E774-01A4-4855-B6F8-AEEDFEFC2EA6}"
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/layout_vertical.png
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Type: Treelist
+  Value: |
+    {99B41A1D-CBAA-45CC-83E2-B85EF367D650}
+    {995E9F11-DE5A-4A32-BC55-5787436C235C}
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{380A8AC9-94C3-4576-9D4D-87A538B2EE29}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200907T181442Z

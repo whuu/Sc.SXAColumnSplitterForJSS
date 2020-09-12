@@ -56,6 +56,6 @@ const ColumnSplitter = ({ rendering, params }) => {
 export default ColumnSplitter;
 ```
 
-* Verify your layout service if it contains rendering parameters for columns and columns splitted into separate placeholders:
+* Verify your layout service if it contains rendering parameters for columns and renderings in columns splitted into separate placeholders:
 
   <img src="/documentation/sxa-columns-layout-service.png" width=70% />

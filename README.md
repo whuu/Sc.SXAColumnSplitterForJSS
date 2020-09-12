@@ -10,7 +10,7 @@
 * Add your renderings to `column` placeholder.
 
 ## Setup Instructions
-* **Prerequisite:** Follow [SXA Grid System with Sitecore JSS](https://smartsitecore.com/en/sxa-grid-system-with-sitecore-jss-part-1/) to configure grid system for your SXA Site. You only need to configure site settings items, changes to components, or pipelines described in this blog are not necessary.
+* **Prerequisite:** Follow [SXA Grid System with Sitecore JSS](https://smartsitecore.com/en/sxa-grid-system-with-sitecore-jss-part-1/) to configure grid system for your SXA Site. You only need to configure site settings items and grid system, changes to components, or pipelines described in this blog are not necessary. If you synchronized items from this repository, you can inherit your `/sitecore/content/{sxa tenant}/{sxa site}/Settings` from `/templates/Feature/ColumnSplitter/My Site Settings` template and select proper grid system in `Grid Mapping` field (for bootstrap you would need to also update Grid Definition item, more in the [blog](https://smartsitecore.com/en/sxa-grid-system-with-sitecore-jss-part-1/)). 
 
 * Deploy code and pipelines configuration from this repository. Sync items serialized with Unicorn. Check `Feature.ColumnSplitter.Serialization.config` for serialization project settings.
 * If you don't want to synchronize items, follow the instruction to create new ones:

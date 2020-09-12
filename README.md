@@ -15,8 +15,7 @@
 * Deploy code and pipelines configuration from this repository. Sync items serialized with Unicorn. Check `Feature.ColumnSplitter.Serialization.config` for serialization project settings.
 * If you don't want to synchronize items, follow the instruction to create new ones:
   * Create Rendering Parameters Template item inheriting from `/sitecore/templates/Feature/Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter`.
-    
-    <img src='/documentation/inherit-rendering-parameters.png' style='max-width:500px;' />
+    ![Rendering Parameters](/documentation/inherit-rendering-parameters.png){:height="50%" width="50%"}
     
   * Optionally add `_Standard Values` item for the template, with default column splitter values (e.g. two column split on desktop and one column on mobile). You can edit columns field using Raw values.
   * Create new `Placeholder Settings` item for placeholder `column`, assign your renderings to `Allowed Controls` field.

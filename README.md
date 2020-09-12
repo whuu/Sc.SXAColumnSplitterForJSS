@@ -22,10 +22,9 @@
     
     <img src="/documentation/placeholder-settings.png" width=60% />
   * Create `Json Rendering` item poiting to your JSS implementation:
-    
-    <img src="/documentation/rendering-definition.png" width=60% />
+    <br/><img src="/documentation/rendering-definition.png" width=60% />
     * Select template created in first step in `Parameter Template` field.
-      
+
       <img src="/documentation/rendering-parameters.png" width=60% />
     * Add `Add Column` and `Remove Column` in `Experience Editor Buttons` field.
       
@@ -58,4 +57,5 @@ export default ColumnSplitter;
 ```
 
 * Verify your layout service if it contains rendering parameters for columns and columns splitted into separate placeholders:
-![Layout Service](documentation/sxa-columns-layout-service.png)
+
+  <img src="/documentation/sxa-columns-layout-service.png" width=70% />

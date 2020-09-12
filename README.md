@@ -6,7 +6,7 @@
 * Add `Column Splitter` component to `Allowed Controls` of your main placeholder settings items.
 * Add your renderings to `Allowed Controls` of `column` placeholder settings item.
 * In Content or Experience Editor add `Column Splitter` component to your main placeholder, use +/- buttons to add/remove column in Experience Editor
-* Set column size in component properties.
+* Set column sizes in component properties.
 * Add your renderings to `column` placeholder.
 
 ## Setup Instructions

@@ -22,13 +22,17 @@
     
     <img src="/documentation/placeholder-settings.png" width=60% />
   * Create `Json Rendering` item poiting to your JSS implementation:
-  ![Rendering Definition](documentation/rendering-definition.png)
+    
+    <img src="/documentation/rendering-definition.png" width=60% />
     * Select template created in first step in `Parameter Template` field.
-    ![Rendering Parameters](documentation/rendering-parameters.png)
+      
+      <img src="/documentation/rendering-parameters.png" width=60% />
     * Add `Add Column` and `Remove Column` in `Experience Editor Buttons` field.
-    ![Rendering Buttons](documentation/rendering-buttons.png)
+      
+      <img src="/documentation/rendering-buttons.png" width=60% />
     * Add `column` placeholder to `Layout Service Placeholders` field.
-    ![Rendering Placeholders](documentation/rendering-placeholder.png)
+      
+      <img src="/documentation/rendering-placeholder.png" width=60% />
 * Create and deploy equivalent JSS component. Implementation for React:
 
 ```javascript
